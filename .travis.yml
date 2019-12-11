@@ -10,7 +10,7 @@ scala:
 - 2.11.6
 
 jdk:
-- oraclejdk8
+- oraclejdk9
 
 script:
 - sbt clean coverage test package
@@ -19,7 +19,7 @@ script:
 
 notifications:
   email:
-  - pricingtool@autoscout24.com
+  - cloudcoreengineering@scout24.com
   slack:
     rooms:
       - as24-tatsu:XJHB0uxN45HgTE4yZil25oQS
