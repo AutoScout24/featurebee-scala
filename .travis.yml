@@ -17,14 +17,14 @@ script:
 # Trick to avoid unnecessary cache updates
 - find $HOME/.sbt -name "*.lock" | xargs rm
 
-notifications:
-  email:
-  - cloudcoreengineering@scout24.com
-  slack:
-    rooms:
-      - as24-tatsu:XJHB0uxN45HgTE4yZil25oQS
-    on_success: change
-    on_failure: always
+# notifications:
+#   email:
+#   - 
+#   slack:
+#     rooms:
+#       - 
+#     on_success: change
+#     on_failure: always
 
 after_success:
   - >
